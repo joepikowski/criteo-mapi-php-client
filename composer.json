@@ -1,0 +1,24 @@
+{
+    "name": "jpikowski/criteo-mapi-php-client",
+    "type": "library",
+    "description": "A PHP Client For Criteo MAPI Requests",
+    "keywords": ["criteo","mapi"],
+    "homepage": "https://github.com/joepikowski/criteo-mapi-php-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joe Pikowski",
+            "email": "j.pikowski@criteo.com",
+            "homepage": "https://www.criteo.com",
+            "role": "Manager, Technical Account Management"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Criteo_": "src/"
+        }
+    }
+}
